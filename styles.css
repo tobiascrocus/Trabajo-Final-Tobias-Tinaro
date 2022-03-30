@@ -1,0 +1,42 @@
+body {
+    background-color: #427E80;
+    background-image: url("imagenes/codigo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    width: auto;
+    height: 100px;
+    background-color: #427E80;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+svg {
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+nav {
+    float: right;
+    margin-top: 15px;
+    margin-right: 50px;
+}
+
+li {
+    float: left;
+    list-style: none;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 3px #000000;
+}
+
+a {
+    text-decoration: none;
+    color: #427E80;
+}
