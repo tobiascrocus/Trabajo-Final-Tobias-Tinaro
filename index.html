@@ -6,36 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto-Final</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="imagenes/logo.svg">
 </head>
 <body>
     <header>
+        <a href="index.html">
+            <svg width="200" height="80">
+                <rect x="45" y="5" width="60" height="35" rx="5" id="tobi1" fill="#3F6797"></rect>
+                <rect x="50" y="10" width="50" height="25" rx="5" id="tobi2" fill="#B1D5E4"></rect>
+                <polygon points="55 45 ,95 45,115 62,30 62" fill="#3F6797" id="juan1"></polygon>
+                <polygon points="57 48 ,92 48,104 58,43 58" fill="#B1D5E4" id="juan2"></polygon>
+            </svg>
+        </a>
+        <nav>
+            <ul>
+                <li><a href="historia.html" class="apretarBoton1">HISTORIA</a></li>
+                <li><a href="juego.html" class="apretarBoton1">JUGUEMOS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+            <div id="titulo-principal">
+                <h1 id="tituloIndex">PROGRAMACION E HISTORIA</h1>
+            </div>
+            <div>
+                <h2>CONTENIDO</h2>
+                <div class="cajas-section">
+                    <img src="imagenes/img1.jpg">
+                    <p>Conozcamos Un poco sobre la historia de la programacion</p>
+                    <a href="historia.html" class="apretarBoton2">Ir a Historia</a>
+                </div>
+                <div class="cajas-section">
+                    <img src="imagenes/img2.jpg">
+                    <p>Juguemos un poco sobre la computacion</p>
+                    <a href="juego.html" class="apretarBoton2">Ir a Juego</a>
+                </div>
+            </div>
+    </section>
+    <footer>
         <svg  width="200" height="80" >
             <rect x="45" y="5" width="60" height="35" rx="5" id="mon1" fill="#3F6797"></rect>
             <rect x="50" y="10" width="50" height="25" rx="5" id="mon2" fill="#B1D5E4"></rect>
             <polygon points="55 45 ,95 45,115 62,30 62" fill="#3F6797" id="tec1"></polygon>
             <polygon points="57 48 ,92 48,104 58,43 58" fill="#B1D5E4" id="tec2"></polygon>
         </svg>
-        <nav>
-            <ul>
-                <li><a href="">HISTORIA</a></li>
-                <li><a href="">JUGUEMOS</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-            <div>
-                <h1>PROGRAMACION E HISTORIA</h1>
-            </div>
-            <div>
-                <h2>CONTENIDO</h2>
-                <div></div>
-                <div></div>
-            </div>
-    </section>
-    <footer>
-        <div></div>
-        <p>PROGRAMACION E HISTORIA</p>
-        <P>Sitio con fines educativos - Creado por M.Victoria Lopez</P>
+        <h3>PROGRAMACION E HISTORIA</h3>
+        <p>Sitio con fines educativos - Creado por M.Victoria Lopez</p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>

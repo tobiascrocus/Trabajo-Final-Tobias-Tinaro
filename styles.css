@@ -1,22 +1,18 @@
 body {
     background-color: #427E80;
-    background-image: url("imagenes/codigo.jpeg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
+/* ----------Estilos header---------- */
+
 header {
-    width: auto;
-    height: 100px;
     background-color: #427E80;
+    height: 100px;
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
 }
 
-svg {
+header svg {
     margin-top: 15px;
     margin-left: 50px;
 }
@@ -28,15 +24,216 @@ nav {
 }
 
 li {
+    background-color: #ffffff;
     float: left;
     list-style: none;
     padding: 10px;
-    background-color: white;
     border-radius: 10px;
     box-shadow: 3px 3px #000000;
+    margin-inline-end: 40px;
 }
 
 a {
-    text-decoration: none;
     color: #427E80;
+    text-decoration: none;
+}
+
+.apretarBoton1:active {
+}
+
+/* ----------Estilos section---------- */
+
+section {
+    height: 1400px;
+}
+
+#titulo-principal {
+    background-image: url("imagenes/codigo.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 470px;
+    margin-left: -10px;
+    margin-right: -10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tituloIndex {
+    background-color: #2D2D2D;
+    color: white;
+    height: 60px;
+    width: 900px;
+    font-size: 60px;
+    text-shadow: #000000 4px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tituloHistoria {
+    background-color: #2D2D2D;
+    color: white;
+    height: 60px;
+    width: 1050px;
+    font-size: 60px;
+    text-shadow: #000000 4px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tituloJuego {
+    background-color: #2D2D2D;
+    color: white;
+    height: 60px;
+    width: 650px;
+    font-size: 60px;
+    text-shadow: #000000 4px 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #ffffff;
+    text-shadow: #000000 2px 2px;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cajas-section {
+    background-color: #ffffff;
+    height: 360px;
+    width: 350px;
+    border: 5px solid #154454;
+    float: left;
+    margin: 150px;
+}
+
+section div img {
+    height: 200px;
+    width: 350px;
+}
+
+section div p {
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+section div a {
+    background-color: #427E80;
+    color: #ffffff;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 3px #154454;
+    margin-inline-start: 90px;
+}
+
+.apretarBoton2:active {
+}
+
+/* ----------Estilos footer---------- */
+
+footer {
+    background-color: #1d1d1d;
+    color: #ffffff;
+    height: 90px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+footer svg {
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+h3 {
+    float: left;
+    font-size: 15px;
+    margin-top: 35px;
+}
+
+#tituloNoMain {
+    margin-left: 100px;
+}
+
+footer p {
+    float: right;
+    margin-top: 35px;
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+footer img {
+    float: left;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+/* ----------Animacion---------- */
+
+rect#tobi1, polygon#juan1 {
+    animation: parte1 ease-in 5s;
+    animation-iteration-count: 1;
+}
+
+rect#tobi2, polygon#juan2 {
+    animation: parte2 ease-in 5s;
+    animation-iteration-count: 1;
+}
+
+@keyframes parte1 {
+    0% {
+        transform: translate(0,-10px);
+        opacity: 0;
+    }
+    20% {
+        transform: translate(0,-10px);
+        opacity: 0;
+    }
+    30% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    90% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    100% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+}
+
+@keyframes parte2 {
+    0% {
+        transform: translate(0,-10px);
+        opacity: 0;
+    }
+    30% {
+        transform: translate(0,-10px);
+        opacity: 0;
+    }
+    40% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    90% {
+        transform: translate(0,0);
+        opacity: 1;
+    }
+    100% {
+        transform:translate(0,0);
+        opacity: 1;
+    }
 }
