@@ -33,12 +33,14 @@ li {
     margin-inline-end: 40px;
 }
 
+li:active {
+    transform: translate(3px, 2px);
+    box-shadow: none;
+}
+
 a {
     color: #427E80;
     text-decoration: none;
-}
-
-.apretarBoton1:active {
 }
 
 /* ----------Estilos section---------- */
@@ -138,7 +140,8 @@ section div a {
     margin-inline-start: 90px;
 }
 
-.apretarBoton2:active {
+section div a:active {
+    box-shadow: none;
 }
 
 /* ----------Estilos footer---------- */
@@ -182,12 +185,12 @@ footer img {
 
 /* ----------Animacion---------- */
 
-rect#tobi1, polygon#juan1 {
+rect#rect1, polygon#poly1 {
     animation: parte1 ease-in 5s;
     animation-iteration-count: 1;
 }
 
-rect#tobi2, polygon#juan2 {
+rect#rect2, polygon#poly2 {
     animation: parte2 ease-in 5s;
     animation-iteration-count: 1;
 }
