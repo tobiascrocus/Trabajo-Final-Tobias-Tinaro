@@ -5,7 +5,6 @@ body {
 /* ----------Estilos header---------- */
 
 header {
-    background-color: #427E80;
     height: 100px;
     margin-top: -10px;
     margin-left: -10px;
@@ -29,7 +28,7 @@ li {
     list-style: none;
     padding: 10px;
     border-radius: 10px;
-    box-shadow: 3px 3px #000000;
+    box-shadow: 3px 3px #154454;
     margin-inline-end: 40px;
 }
 
@@ -43,9 +42,9 @@ a {
     text-decoration: none;
 }
 
-/* ----------Estilos section---------- */
+/* ----------Estilos main---------- */
 
-section {
+#mainIndex {
     height: 1400px;
 }
 
@@ -102,14 +101,14 @@ section {
 
 h2 {
     color: #ffffff;
-    text-shadow: #000000 2px 2px;
+    text-shadow: #154454 2px 2px;
     font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.cajas-section {
+.cajasMain {
     background-color: #ffffff;
     height: 360px;
     width: 350px;
@@ -118,18 +117,18 @@ h2 {
     margin: 150px;
 }
 
-section div img {
+main div img {
     height: 200px;
     width: 350px;
 }
 
-section div p {
+main div p {
     font-size: 18px;
     text-align: center;
     margin-bottom: 50px;
 }
 
-section div a {
+main div a {
     background-color: #427E80;
     color: #ffffff;
     padding: 10px;
@@ -140,7 +139,7 @@ section div a {
     margin-inline-start: 90px;
 }
 
-section div a:active {
+main div a:active {
     box-shadow: none;
 }
 
@@ -239,4 +238,157 @@ rect#rect2, polygon#poly2 {
         transform:translate(0,0);
         opacity: 1;
     }
+}
+
+/* ----------Estilos main historia---------- */
+
+#mainHistoria {
+    height: 3050px;
+}
+
+#contenedorPrincipal {
+    margin-top: 100px;
+}
+
+.contenedoresHistoria {
+    display: flex;
+    padding:80px 50px;
+}
+
+#tituloHistoria1 {
+    text-align: center;
+    margin-top: -10px;
+}
+
+#textoHistoria1 {
+    text-align: left;
+    width: 40%;
+}
+
+#tituloHistoria2 {
+    margin-left: 200px;
+    margin-bottom: 100px;
+    width: 50%;
+}
+
+#textoHistoria2 {
+    text-align: left;
+    width: 50%;
+    margin-left: 50px;
+}
+
+#tituloHistoria3 {
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+#textoHistoria3 {
+    text-align: left;
+    width: 180%;
+}
+
+#tituloVideo {
+    margin-top: 180px;
+}
+
+#cajaVideo {
+    height: 800px;
+    width: 950px;
+    margin-top: -110px;
+    margin-left: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+video {
+    height: 100%;
+    width: 100%;
+}
+
+#barraVideo {
+    background-color: #1d1d1d;
+    height: 50px;
+    width: 940px;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-top: -150px;
+    display: flex;
+    gap: 20px;
+}
+
+#botonPlay, #botonPause {
+    height: 45px;
+    width: 80px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px #154454;
+}
+
+#botonPlay #botonPause:active {
+    box-shadow: none;
+}
+
+#imgPlay, #imgPause {
+    height: 10px;
+    width: 10px;
+}
+
+#tiempoVideo {
+    color: #ffffff;
+    margin-top: 10px;
+    margin-left: 550px;
+}
+
+/* ----------Estilos main juego---------- */
+
+#mainJuego {
+    height: 1700px;
+}
+
+#h2Juego {
+    font-size: 45px;
+    padding-top: 100px;
+}
+
+#rompeCabezas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cajasVacias {
+    display: flex;
+}
+
+#caja1, #caja2, #caja3 {
+    background-color: #808080;
+    height: 400px;
+    width: 270px;
+    border: 2px solid #000000;
+    display: inline-block;
+    text-align: center;
+}
+
+#imagenesJuego {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 40px;
+}
+
+#imagen1, #imagen2, #imagen3 {
+    height: 400px;
+    width: 270px;
+}
+
+#botonJuego {
+    margin-left: 540px;
+    padding: 10px 100px;
+    border-radius: 10px;
+    box-shadow: 2px 3px #000000;
+}
+
+#botonJuego:active {
+    transform: translate(3px, 2px);
+    box-shadow: none;
 }
