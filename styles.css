@@ -243,7 +243,7 @@ rect#rect2, polygon#poly2 {
 /* ----------Estilos main historia---------- */
 
 #mainHistoria {
-    height: 3050px;
+    height: 3150px;
 }
 
 #contenedorPrincipal {
@@ -287,17 +287,17 @@ rect#rect2, polygon#poly2 {
     width: 180%;
 }
 
-#tituloVideo {
-    margin-top: 180px;
+#contenedorPrincipalVideo {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #cajaVideo {
-    height: 800px;
-    width: 950px;
-    margin-top: -110px;
-    margin-left: 200px;
-    display: flex;
-    flex-direction: column;
+    background-color: #000000;
+    border: 5px solid #000000;
 }
 
 video {
@@ -310,22 +310,16 @@ video {
     height: 50px;
     width: 940px;
     border-radius: 10px;
-    margin-left: 5px;
-    margin-top: -150px;
     display: flex;
-    gap: 20px;
+    margin-top: -5px;
 }
 
 #botonPlay, #botonPause {
     height: 45px;
     width: 80px;
-    margin-left: 10px;
     border-radius: 10px;
     box-shadow: 2px 3px #154454;
-}
-
-#botonPlay #botonPause:active {
-    box-shadow: none;
+    margin-left: 15px;
 }
 
 #imgPlay, #imgPause {
@@ -336,7 +330,7 @@ video {
 #tiempoVideo {
     color: #ffffff;
     margin-top: 10px;
-    margin-left: 550px;
+    margin-left: 570px;
 }
 
 /* ----------Estilos main juego---------- */
