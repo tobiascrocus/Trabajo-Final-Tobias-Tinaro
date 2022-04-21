@@ -11,5 +11,3 @@ botonPlay.addEventListener('click',()=>{
 botonPause.addEventListener('click',()=>{
     video.pause();
 });
-
-/* ----------Codigo juego---------- */
